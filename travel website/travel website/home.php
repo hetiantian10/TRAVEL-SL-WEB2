@@ -1,0 +1,238 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <title>Home-Travel SL</title>
+
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- css style file -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+   
+<!-- header -->
+
+<section class="header">
+
+   <a href="home.php" class="logo">Travel SL </a>
+
+   <nav class="navbar">
+      <a href="home.php">home</a>
+      <a href="about.php">about</a>
+      <a href="package.php">package</a>
+      <a href="book.php">book</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+
+<section class="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background:url(slide1.jpg) no-repeat">
+            <div class="content">
+               <span> travel, explore, enjoy </span>
+               <h3>travel sri lanka </h3>
+               <a href="package.php" class="btn"> discover more </a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background:url(slide2.jpg) no-repeat">
+            <div class="content">
+               <h3>witness the beauty of the land of serendipity</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background:url(slide3.jpg) no-repeat">
+            <div class="content">
+               <h3>make your tour worthwhile</h3>
+               <a href="package.php" class="btn"> discover more</a>
+            </div>
+         </div>
+         
+      </div>
+
+      <div class="swiper-button-next"> </div>
+      <div class="swiper-button-prev"> </div>
+
+   </div>
+
+</section>
+
+
+
+
+<!-- services -->
+
+<section class="services">
+
+   <h1 class="heading-title"> our services </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="sicon-1.png" >
+         <h3>adventure tours</h3>
+      </div>
+
+      <div class="box">
+         <img src="sicon-2.png" >
+         <h3>tour guidance </h3>
+      </div>
+
+      <div class="box">
+         <img src="sicon-3.png" >
+         <h3>trekking</h3>
+      </div>
+
+      <div class="box">
+         <img src="sicon-4.png" alt="">
+         <h3>camping</h3>
+      </div>
+
+
+   </div>
+
+</section>
+
+
+<!-- home,about us -->
+
+<section class="home-about">
+
+   <div class="image">
+      <img src="aboutus.jpg">
+   </div>
+
+   <div class="content">
+      <h3> About us </h3>
+      <p>Sri Lanka is a truly spellbinding travel destination which will suit any traveler’s interests with its top tourist attractions. 
+	  The small island nation is chock-full of adventure activities like surfing and trekking! 
+	  And we, from Travel Sri Lanka are ready to guide you through the beauty of Sri Lanka with our meticulously planned holidays! 
+	  </p>
+      <a href="about.php" class="btn"> know more about us </a>
+   </div>
+
+</section>
+
+
+
+<!-- home, packages -->
+
+<section class="home-packages">
+
+   <h1 class="heading-title"> our packages </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="image">
+            <img src="pack1.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Ella</h3>
+            <p> Ella has all the best parts of Sri Lanka rolled into one: beautiful jungle mountains, 
+			rolling tea plantations, and epic waterfalls.</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="pack2.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3> Wilpattu</h3>
+            <p>Located on the North-Western coast of the country, Wilpattu is the largest National Park in the island.</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+      
+      <div class="box">
+         <div class="image">
+            <img src="pack3.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Trincomalee</h3>
+            <p> Historic harbour city, Koneswaram, Fort Frederick, Dolphin & Whale-watching, scuba diving and snorkelling.</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="load-more"> <a href="package.php" class="btn">load more</a> </div>
+
+</section>
+
+
+
+<!-- home, offers  -->
+
+<section class="home-offer">
+   <div class="content">
+      <h3>special offers up to 50% </h3>
+      <p>Each day on this island promises new experiences, discoveries, and life-long memories. 
+	  With so much to do,let us help you with these itineraries created just for you!
+	  </p>
+      <a href="book.php" class="btn">book now</a>
+   </div>
+</section>
+
+
+
+
+
+
+<!-- footer -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+
+      <div class="box">
+         <h3>contact us</h3>
+         <a href="#"> <i class="fas fa-phone"></i> +9411 1234567 </a>
+         <a href="#"> <i class="fas fa-phone"></i> +9411 1234567 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> travelsl@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> Colombo, Sri Lanka </a>
+      </div>
+
+
+   </div>
+
+   <div class="credit"> Group 2 - COST 32532 </div>
+
+</section>
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+<!-- js file -->
+<script src="js/script.js"></script>
+
+
+
+</body>
+
+
+</html>
